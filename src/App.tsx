@@ -13,10 +13,10 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("")
 
   const articleArray: Article[] = [
-    { id: 1, date: new Date("2018-10-09").toString(), title: "Lorem ipsum dolor sit amet", label: "Lorem ipsum..." },
-    { id: 2, date: new Date("2019-05-15").toString(), title: "consectetuer adipiscing elit", label: "Lorem ipsum..." },
-    { id: 3, date: new Date("2020-03-22").toString(), title: "Lorem ipsum dolor sit amet", label: "Lorem ipsum..." },
-    { id: 4, date: new Date("2021-12-01").toString(), title: "ipsum dolor sit amet", label: "Lorem ipsum..." },
+    { id: 1, date: new Date("2018-10-09").toString(), title: "Lorem ipsum dolor sit amet", label: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back" },
+    { id: 2, date: new Date("2019-05-15").toString(), title: "consectetuer adipiscing elit", label: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. " },
+    { id: 3, date: new Date("2020-03-22").toString(), title: "Lorem ipsum dolor sit amet", label: "ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium" },
+    { id: 4, date: new Date("2021-12-01").toString(), title: "Lorem ipsum dolor sit amet", label: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. " },
   ]
 
   // Finds the first match of the search word and highlights it with a yellow background.
